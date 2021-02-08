@@ -1,0 +1,29 @@
+// access flags 0x12
+private final Z isADSB
+
+// access flags 0x11
+public final isADSB()Z
+ L0
+  LINENUMBER 36 L0
+  ALOAD 0
+  GETFIELD com/thehecklers/aircraftpositions/Aircraft.isADSB : Z
+  IRETURN
+ L1
+  LOCALVARIABLE this Lcom/thehecklers/aircraftpositions/Aircraft; L0 L1 0
+  MAXSTACK = 1
+  MAXLOCALS = 1
+
+// access flags 0x12
+private final Z isOnGround
+
+// access flags 0x11
+public final isOnGround()Z
+ L0
+  LINENUMBER 38 L0
+  ALOAD 0
+  GETFIELD com/thehecklers/aircraftpositions/Aircraft.isOnGround : Z
+  IRETURN
+ L1
+  LOCALVARIABLE this Lcom/thehecklers/aircraftpositions/Aircraft; L0 L1 0
+  MAXSTACK = 1
+  MAXLOCALS = 1
